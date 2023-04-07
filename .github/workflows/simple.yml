@@ -10,3 +10,5 @@ jobs:
         run: echo "Hello World"
       - name: multiline string
         run: node -v
+      - name: Running a test file
+        run: pytest Tests/test_LoginPage.py
